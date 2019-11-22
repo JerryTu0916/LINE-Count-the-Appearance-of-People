@@ -1,5 +1,4 @@
-# LINE-Count-the-Appearance-of-People
+## LINE-Count-the-Appearance-of-People
 A stupid CS student's dumb project
 
-Use the generator.py before everything else
-your input file should be named "input.txt"
+Just run the python script. Make sure that the input file is in the same folder as the script.
