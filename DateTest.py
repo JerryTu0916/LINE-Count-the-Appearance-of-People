@@ -1,7 +1,9 @@
 import matplotlib.pyplot as plt
 import datetime
 
-ifile = open("Chat with Shani.txt", "rt", encoding="UTF-8")
+inputFileName = input("please input file name (please include '.txt')")
+
+ifile = open(inputFileName, "rt", encoding="UTF-8")
 DateBuffer = ""
 
 activity = 0
