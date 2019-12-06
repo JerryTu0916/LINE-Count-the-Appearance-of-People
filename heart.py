@@ -1,6 +1,6 @@
-input_file_name = "Chat with Shani.txt"
+inputFileName = input("please input file name (please include '.txt')")
 
-ifile = open(input_file_name, 'rt', encoding='UTF-8')
+ifile = open(inputFileName, 'rt', encoding='UTF-8')
 ofile = open("output_heart.txt", 'wt', encoding='UTF-8')
 
 b = 'd0wnw4rd 5p!r41 -- emp'
