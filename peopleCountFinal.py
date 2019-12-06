@@ -22,6 +22,7 @@ while True:
             if not flag:
                 flag = True
             else:
+                flag = False
                 if not potentialName in people.keys():
                     people[potentialName] = 1
                 else:
