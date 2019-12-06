@@ -1,3 +1,5 @@
+#doesn't work with Obfuscated.txt
+
 inputFileName = input("please input file name (please include '.txt')")
 
 ifile = open(inputFileName, 'rt', encoding='UTF-8')
